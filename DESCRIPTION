@@ -1,0 +1,11 @@
+Package: rutils
+Title: 
+Description: 
+Version: 0.1
+Authors@R: anthony@algorithms.io
+Depends:
+    R (>= 3.0.1)
+License: # getOptions('devtools.desc.license')
+LazyData: true
+Collate:
+    'rutils-package.r'
