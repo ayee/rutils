@@ -2,7 +2,8 @@ Package: rutils
 Title: 
 Description: 
 Version: 0.1
-Authors@R: anthony@algorithms.io
+Author: Anthony Yee <anthony@algorithms.io>
+Maintainer: Anthony Yee <anthony@algorithms.io>
 Depends:
     R (>= 3.0.1)
 License: # getOptions('devtools.desc.license')
