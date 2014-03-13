@@ -1,5 +1,3 @@
-\docType{package
-Set}
 \name{rutils}
 \alias{rutils}
 \title{rutils}
