@@ -1,8 +1,6 @@
 #' rutils
 #'
 #' @name rutils
-#' @docType package
-
 #' Set up twitter
 #' @description Initiate OAuth authentication
 setup_twitter <- function() {
@@ -19,8 +17,10 @@ setup_twitter <- function() {
   registerTwitterOAuth(twitCred)
 }
 
-# improved list of objects
-.ls.objects <- function (pos = 1, pattern, order.by,
+#' @title List objects
+#' @description improved list of objects
+#' @export
+ls.objects <- function (pos = 1, pattern, order.by,
                          decreasing=FALSE, head=FALSE, n=5) {
   napply <- function(names, fn) sapply(names, function(x)
     fn(get(x, pos = pos)))
